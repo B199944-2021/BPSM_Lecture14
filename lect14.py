@@ -35,5 +35,5 @@ def kmer_count(dna,kmersize,mini_freq):
         kmer_list.append(kmer)
     for uni_kmer in set(kmer_list):
         if dna.count(uni_kmer) > mini_freq:
-            print(uni_kmer.upper(),str(dna.count(uni_kmer))
+            print(uni_kmer.upper(),str(dna.count(uni_kmer)))
 
